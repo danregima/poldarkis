@@ -38,7 +38,7 @@ export const Default = {
       <ThemeProvider theme="light">
         <TopBar.Menu
           activatorContent={
-            <ThemeProvider theme="dark-experimental">
+            <ThemeProvider theme="dark">
               <span>
                 <Icon source={HeartIcon} />
                 <Text as="span" visuallyHidden>
@@ -60,7 +60,7 @@ export const Default = {
     );
 
     const notificationsMenu = (
-      <ThemeProvider theme="dark-experimental">
+      <ThemeProvider theme="dark">
         <TopBar.Menu
           activatorContent={
             <span>

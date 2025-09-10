@@ -7,7 +7,7 @@ import {ThemeProvider} from '../ThemeProvider';
 import {useThemeName} from '../../../utilities/use-theme';
 
 const LIGHT_THEME: ThemeName = 'light';
-const DARK_THEME: ThemeName = 'dark-experimental';
+const DARK_THEME: ThemeName = 'dark';
 
 describe('<ThemeProvider />', () => {
   const ThemeNameText = () => {

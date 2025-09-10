@@ -18,14 +18,14 @@ export const metaThemes: MetaThemes = {
   light: metaThemeLight,
   'light-mobile': metaThemeLightMobile,
   'light-high-contrast-experimental': metaThemeLightHighContrast,
-  'dark-experimental': metaThemeDark,
+  dark: metaThemeDark,
 };
 
 export const metaThemePartials: MetaThemePartials = {
   light: metaThemeLightPartial,
   'light-mobile': metaThemeLightMobilePartial,
   'light-high-contrast-experimental': metaThemeLightHighContrastPartial,
-  'dark-experimental': metaThemeDarkPartial,
+  dark: metaThemeDarkPartial,
 };
 
 export const metaThemeDefaultPartial = metaThemePartials[themeNameDefault];
